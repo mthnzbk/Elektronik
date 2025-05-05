@@ -14,7 +14,6 @@
 
 RF24 anten(CE, CSN);
 const byte address[6] = "00001";
-
 bool press = false;
 bool prev = false;
 

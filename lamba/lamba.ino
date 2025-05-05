@@ -2,9 +2,6 @@
 #include <RF24.h>
 #include <nRF24L01.h>
 
-#include <avr/sleep.h>
-#include <avr/power.h>
-
 //nrf pins vcc 3,3v
 #define CE 9 // bu
 #define CSN 10 // ve bu değişebilir diğerleri kullanılmasa da sabit pinler
